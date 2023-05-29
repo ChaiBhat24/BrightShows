@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+nav{
+    background: linear-gradient(200deg,rgba(0, 0, 255, 0.825), rgba(232, 44, 75, 0.862),rgba(0, 0, 255, 0.825));
+    color: antiquewhite;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+}
+#logo h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#search-bar input{
+    width: 400px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#searchbtn{
+    width: 50px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    left: -70px;
+    top: 6px;
+    background-color: rgba(242, 235, 235, 0.916);
+    outline: none;
+    border: grey;
+    box-shadow: 2px 2px 10px;
+    cursor: pointer;
+    border: 1px grey ridge;
+    outline: none;
+}
+
+#searchbtn:hover{
+    background-color: rgba(230, 190, 150, 0.482);
+    transform: scale(1.05);
+    transition: linear 0.1s;
+}
+
+#searchbtn i{
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+}
+
+#searchbtn:hover i{
+    color: blue;
+}
+
+#add-movie a{
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    text-decoration: none;
+    transition: 0.2s linear;
+    box-shadow: 3px 3px rgba(0, 0, 255, 0.825);
+    font-weight: bold;
+}
+
+#add-movie a:hover{
+    background-color: white;
+    color: rgba(221, 14, 49, 0.965);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#favs{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 20px;
+}
+
+
+@media (max-width:1024px) 
+{
+    nav{
+        padding: 20px 60px;
+    }
+
+    #logo h1{
+        font-size: 25px;
+    }
+
+    #search-bar{
+        width: 200px;
+    }
+}

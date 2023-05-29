@@ -1,0 +1,31 @@
+.movie-details{
+    text-align: justify;
+    margin: 20px;
+
+}
+
+#title{
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top: 100px;
+    z-index: 100;
+    background: linear-gradient(45deg, rgba(232, 44, 75, 0.865),rgba(0, 0, 255, 0.865)) ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+iframe{
+    margin-left: 100px;
+}
+.movie-details button{
+    width: 150px;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.movie-details button:hover{
+    background-color: red;
+    color: black;
+}
